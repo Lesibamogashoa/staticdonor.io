@@ -1,0 +1,230 @@
+* {
+    margin: 0
+}
+
+*{
+    text-decoration: none;
+    color:white;
+}
+
+body{
+    list-style-type: none;
+}
+
+.topnav {
+    display: flex;
+    background-color:#D60505;
+    overflow: hidden;
+    justify-content: space-around;
+    padding-top: 20px;
+    /* padding: 15px; */
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    color: white;
+}
+
+#actv{
+    background: white;
+    color:black;
+}
+
+.image1 {
+    height: 60px;
+    width: 60px;
+    margin-left: 70px;
+    padding-bottom: 17px;
+}
+
+.box{
+    padding-top: 50px;
+    background-color:#D60505;
+    width:100%;
+    height:380px;
+    margin-top: 40px;
+}
+
+/* .edit-button{
+  width:150px;
+  height: 30px;
+  background:black    ;
+  color:black;
+  margin-top: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 50px;
+} */
+
+.image{
+    display: flex;
+   margin-left: 650px;
+   width:250px;
+   height:250px;
+}
+
+.name{
+    margin-left: 725px;
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.button{
+    border-radius: 18px;
+    height:35px;
+    width:150px;
+    border: none;
+    margin-left:710px;
+    margin-top: 30px;
+}
+
+
+.search{
+ position: relative;
+ text-align: center;
+ width: 200px;
+ height: 40px;
+}
+
+
+.initials{
+    position: relative;
+    bottom: 10px;
+    margin-left: 340px;
+    color: white;
+    font-size: 20px;
+    font-weight:bolder ;
+}
+
+.maincontent-one{
+    margin-left: 700px;
+    margin-top:140px;
+}
+
+.letters{
+    margin-left: -390px;
+    color:black;
+    font-size: 20px;
+}
+
+.input{
+    display: flex;
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    width:700px;
+    height:45px;
+    border:none;
+    margin-left: -400px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D60505;
+    color: white;
+    font-size: 15px;
+}
+
+.savebutton{
+    background: #D60505;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+.border{
+    margin-top: 50px;
+    height: 340px;
+    width: px;
+    top:150px;
+    background-color:#D60505;
+    color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.maincontent{
+    display: flex;
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+.donations{
+    margin-left: 250px;
+}
+
+.Subscribe-text{
+    margin-left:350px;
+    padding-top: 10px;
+}
+
+.firstinput{
+    margin-top: 50px;
+    margin-left: -183px;
+    height:35px;
+    width:370px;
+    text-align: start;
+    border:none;
+    background-color: #D9D9D9;
+}
+
+.secondinput{
+    margin-top: 50px;
+    margin-left: -183px;
+    height:35px;
+    width:370px;
+    text-align: start;
+    border:none;
+    background-color: black;
+}
+
+.placeholder{
+    color:white;
+}
+
+.paragraph{
+    margin-top: 175px;
+    margin-left: -375px;
+}
+
+.tg{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    width:750px;
+}
+
+.bloodimg{
+    margin-top: -20px;
+    width:50px;
+    height:50px;
+}
+
+.three-images{
+    display: flex;
+    margin-left: 1200px;
+    margin-top: -40px;
+    justify-content: space-between;
+    width:150px;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
+</head>
+
+<body>
+    <nav class="top-nav">
+        <div class="navigation">
+
+            <div class="topnav">
+                <img class="image1" src="IMAGES/blood 1.png" alt="">
+                <li><a id="actv" href="login.html">Login Page</a></li>
+                <li><a href="Services.html">services</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <div class="logout"><a href="index.html">Log out</a></div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="box">
+           <div>      
+             <img class="firstimage" src="images/Rectangle 94.png">
+           </div>
+    </div>  
+    
+       <div class="inputthree">
+           <p>Email</p>
+           <input class="input-one" type="text" placeholder="e.g EuniceSmith@gmail.com">
+        </div>
+
+        <div class="inputfour">
+            <p>Password</p>
+            <input class="input-one" type="text" placeholder="Enter your password">
+        </div>
+
+        <div>
+            <button class="login-button"><a href="profile.html">Login</a></button>
+        </div>
+
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Forgot Password?</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+     <span class="close">&times;</span>
+     <center><h1>Forgot password?</h1></center>
+        <hr id="horiline">
+        <h3 id="heading2">Reset Password</h3>
+        <h4 id="heading4">Username</h4>
+        <input type="text">
+        <div>
+            <button id="modal-button">Submit</button>
+        </div>
+  </div>
+
+  
+
+</div>        
+
+    <script>
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+    </script>    
+
+
+   
+    <footer class="border">
+        <div class="maincontent">
+               <div>
+                     <h2>WHere to Donate</h2>
+                     <br>
+                     <p> Donor centres</p>
+                     <br> 
+                     <p> Plasma and platelets</p>
+                     <br>
+                     <p> Blood drives  </p>
+                     <br>
+                     <p>Donor partners</p> 
+               </div> 
+
+                <div class="donations">
+                     <h2>Donors</h2>
+                     <br>
+                     <p>Who Can donate</p> 
+                     <br>
+                     <p> Why donate blood?</p>  
+                     <br> 
+                     <p>Donation process</p>
+               </div>
+            
+                  <div class="Subscribe-text">
+                        <p>Subscribe to our news:</p>
+                    </div>
+                    
+                   <div> 
+                     <input class="firstinput" type="text" placeholder="Enter your email"><br>
+                     <input class="secondinput" type="text" placeholder="Subscribe" class="placeholder">
+                  </div>
+                
+                <div>
+                    <p class="paragraph">By  subscribing you confirm that you have read<br>
+                    and accept our.</p>
+                </div> 
+                  
+       </div>
+
+
+        
+           
+            <div>
+                <div class="tg">
+                    <img class="bloodimg" src="IMAGES/blood 1.png" > 
+                    <p>Social donors</p> 
+                    <p>2011-2022</p>
+                    <p>Privacy</p>
+                    <p>US English</p>
+                </div>    
+            </div> 
+           
+            <div class= "three-images">
+                <div>
+                    <img class="fb" src="IMAGES/fa-brands_facebook.png">   
+                </div>
+
+                <div>
+                    <img class="fb" src="IMAGES/Vector (1).png">  
+                </div>
+
+                <div>
+                    <img class="fb" src="IMAGES/ant-design_twitter-square-filled.png"> 
+                </div>
+
+            </div> 
+    </footer> 
+
+</body>
+</html>                    

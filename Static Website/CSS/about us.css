@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+ }
+
+*{
+    text-decoration: none;
+}
+ 
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     list-style-type: none;
+ }
+
+.top-nav a:hover{
+    background: #ddd;
+    color: black;
+}
+ 
+ .top-nav{
+     display: flex;
+     background-color: #D60505;
+     justify-content:space-around;
+     align-items: center;
+     color: white;
+     padding: 15px;
+ }
+
+.top-nav a{
+  color:white;
+} 
+
+ .logo img{
+     height:60px;
+     width:60px;
+ }
+ 
+ .navlinks{
+     width:70%;
+     display: flex;
+     list-style-type: none;
+     justify-content: space-around;
+     margin-top: 20px;
+ }
+
+#actv{
+    background: white;
+    color:black;
+    padding: 14px 16px;
+} 
+
+.callus{
+    margin-top: -15px;
+} 
+ 
+ #topimage{
+     margin-top: 20px;
+     width:100%;
+     height:350px;
+ }
+
+ .borderline{
+    width:97%;
+    height: 800px;
+    padding: 20px;
+ }
+
+ .donorimage{
+    width:100%;
+    height:300px;
+}
+
+.header3{
+    color:red;
+}
+
+.border{
+    margin-top: 20px;
+    height: 340px;
+    width: px;
+    top:150px;
+    background-color:#D60505;
+    color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.maincontent{
+    display: flex;
+    font-size: 20px;
+    margin-left: -10px;
+}
+
+.donations{
+    margin-left: 250px;
+}
+
+.Subscribe-text{
+    margin-left:350px;
+    padding-top: 10px;
+}
+
+.two-inputs{
+    margin-left: -18px;
+}
+
+.firstinput{
+    margin-top: 50px;
+    margin-left: -183px;
+    height:35px;
+    width:370px;
+    text-align: start;
+    border:none;
+    background-color: #D9D9D9;
+}
+
+.secondinput{
+    margin-top: 50px;
+    margin-left: -183px;
+    height:35px;
+    width:370px;
+    text-align: start;
+    border:none;
+    background-color: black;
+}
+
+.placeholder{
+    color:white;
+}
+
+.paragraph{
+    margin-top: 175px;
+    margin-left: -374px;
+}
+
+.tg{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    width:750px;
+}
+
+.bloodimg{
+    margin-top: -20px;
+    width:50px;
+    height:50px;
+}
+
+.three-images{
+    display: flex;
+    margin-left: 1200px;
+    margin-top: -40px;
+    justify-content: space-between;
+    width:150px;
+}
+
+
+
